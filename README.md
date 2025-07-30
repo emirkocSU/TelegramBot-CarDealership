@@ -1,4 +1,4 @@
-# 🚗 Premium Car Alert Bot
+# Premium Car Alert Bot
 ## AI-Powered Telegram Bot with YOLOv8 Damage Detection
 
 [![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://python.org)
@@ -9,18 +9,18 @@
 
 Premium Telegram bot that provides real-time car listing alerts with AI-powered damage detection using YOLOv8. Get instant notifications when cars matching your criteria are listed, complete with damage assessment and detailed analysis.
 
-## ✨ Features
+##  Features
 
-- 🤖 **Smart Telegram Bot** - Interactive bot with intuitive commands
-- 🧠 **YOLOv8 AI Integration** - Real-time car damage detection
-- 🔔 **Real-time Alerts** - Instant notifications for matching cars
-- 🔍 **Advanced Filtering** - Precise search criteria configuration
-- 📱 **Mobile App** - Cross-platform React Native companion app
-- 💎 **Premium Subscription** - Advanced features with payment integration
+-  **Smart Telegram Bot** - Interactive bot with intuitive commands
+-  **YOLOv8 AI Integration** - Real-time car damage detection
+-  **Real-time Alerts** - Instant notifications for matching cars
+-  **Advanced Filtering** - Precise search criteria configuration
+-  **Mobile App** - Cross-platform React Native companion app
+-  **Premium Subscription** - Advanced features with payment integration
 - 🇹🇷 **Turkish Market Focus** - Optimized for Turkish car listings
-- 🐳 **Docker Ready** - Production-ready containerized deployment
+-  **Docker Ready** - Production-ready containerized deployment
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -69,7 +69,7 @@ from tgbot.database import DatabaseManager
 async def init_db():
     db = DatabaseManager()
     await db.initialize()
-    print('✅ Database initialized')
+    print(' Database initialized')
 
 asyncio.run(init_db())
 "
@@ -82,7 +82,7 @@ asyncio.run(init_db())
 python -m tgbot.main
 ```
 
-## 🐳 Production Deployment
+##  Production Deployment
 
 ### Docker Compose (Recommended)
 
@@ -104,7 +104,7 @@ docker build -t premium-car-bot .
 docker run -d --env-file .env premium-car-bot
 ```
 
-## � Mobile App Development
+##  Mobile App Development
 
 The companion mobile app is built with Expo and React Native:
 
@@ -119,7 +119,7 @@ npm install
 npx expo start
 ```
 
-## 🔧 Configuration
+## Configuration
 
 ### Telegram Bot Setup
 
@@ -158,7 +158,7 @@ YOLO_WEIGHTS_PATH=models/car_damage_yolo.pt
 YOLO_CONFIDENCE_THRESHOLD=0.4
 ```
 
-## 🧠 AI Damage Detection
+## AI Damage Detection
 
 The bot uses YOLOv8 for real-time car damage detection:
 
@@ -177,7 +177,7 @@ The bot uses YOLOv8 for real-time car damage detection:
 /quick_scan [image_url]
 ```
 
-## 📋 Available Commands
+## Available Commands
 
 | Command | Description |
 |---------|-------------|
@@ -190,7 +190,7 @@ The bot uses YOLOv8 for real-time car damage detection:
 | `/profile` | View and edit profile |
 | `/settings` | Bot settings and preferences |
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
@@ -231,7 +231,7 @@ Access monitoring at:
 - Grafana: `http://localhost:3000`
 - Prometheus: `http://localhost:9090`
 
-## 🧪 Testing
+## Testing
 
 ### Unit Tests
 
@@ -262,16 +262,16 @@ We have a comprehensive beta testing program:
 # Visit: beta.premiumcaralert.com
 ```
 
-## � Documentation
+## Documentation
 
-- [🚀 Production Deployment Guide](PRODUCTION_DEPLOYMENT.md)
-- [🤖 Telegram Bot Setup](TELEGRAM_BOT_SETUP.md)
-- [📱 Mobile App Development](EXPO_APP_DEVELOPMENT.md)
-- [🧪 Beta Testing Program](BETA_TESTING_PROGRAM.md)
-- [🏛️ Architecture Overview](ARCHITECTURE.md)
-- [🔧 API Documentation](API_DOCUMENTATION.md)
+- [ Production Deployment Guide](PRODUCTION_DEPLOYMENT.md)
+- [ Telegram Bot Setup](TELEGRAM_BOT_SETUP.md)
+- [ Mobile App Development](EXPO_APP_DEVELOPMENT.md)
+- [ Beta Testing Program](BETA_TESTING_PROGRAM.md)
+- [ Architecture Overview](ARCHITECTURE.md)
+- [ API Documentation](API_DOCUMENTATION.md)
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -279,17 +279,16 @@ We have a comprehensive beta testing program:
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🆘 Support
+## Support
 
-- � Email: emirkoc@sabanciuniv.edu
-- 💬 Telegram: [@PremiumCarAlertBot](https://t.me/PremiumCarAlertBot)
+-  Email: emirkoc@sabanciuniv.edu
 
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [Ultralytics YOLOv8](https://ultralytics.com) - AI object detection
 - [aiogram](https://aiogram.dev) - Telegram Bot framework
