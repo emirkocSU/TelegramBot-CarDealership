@@ -285,10 +285,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🆘 Support
 
-- � Email: support@premiumcaralert.com
+- � Email: emirkoc@sabanciuniv.edu
 - 💬 Telegram: [@PremiumCarAlertBot](https://t.me/PremiumCarAlertBot)
-- 🐛 Issues: [GitHub Issues](https://github.com/yourusername/premium-car-alert-bot/issues)
-- 📚 Wiki: [Project Wiki](https://github.com/yourusername/premium-car-alert-bot/wiki)
+
 
 ## 🙏 Acknowledgments
 
@@ -297,9 +296,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Expo](https://expo.dev) - React Native development platform
 - [FastAPI](https://fastapi.tiangolo.com) - Modern Python web framework
 
----
 
-**Made with ❤️ for the Turkish automotive community**
 
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/premium-car-alert-bot.svg?style=social&label=Star)](https://github.com/yourusername/premium-car-alert-bot)
-[![GitHub forks](https://img.shields.io/github/forks/yourusername/premium-car-alert-bot.svg?style=social&label=Fork)](https://github.com/yourusername/premium-car-alert-bot/fork)
+
+
